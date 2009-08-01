@@ -80,7 +80,7 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgb
         </item>
        </widget>
       </item>
-      <item row="0" column="7" rowspan="2">
+      <item row="0" column="5" rowspan="2">
        <widget class="QToolButton" name="loadButton">
         <property name="sizePolicy">
          <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
@@ -123,25 +123,6 @@ border-radius: 5px;
         </property>
         <property name="toolButtonStyle">
          <enum>Qt::ToolButtonTextBesideIcon</enum>
-        </property>
-       </widget>
-      </item>
-      <item row="0" column="3" rowspan="2">
-       <widget class="QToolButton" name="decoButton">
-        <property name="sizePolicy">
-         <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
-          <horstretch>0</horstretch>
-          <verstretch>0</verstretch>
-         </sizepolicy>
-        </property>
-        <property name="text">
-         <string>Decorations</string>
-        </property>
-        <property name="popupMode">
-         <enum>QToolButton::InstantPopup</enum>
-        </property>
-        <property name="autoRaise">
-         <bool>true</bool>
         </property>
        </widget>
       </item>
@@ -487,7 +468,7 @@ border-radius: 5px;
         <addaction name="aAddFlickr"/>
        </widget>
       </item>
-      <item row="0" column="6" rowspan="2">
+      <item row="0" column="4" rowspan="2">
        <widget class="QToolButton" name="exportButton">
         <property name="sizePolicy">
          <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
@@ -533,7 +514,7 @@ border-radius: 5px;
         </property>
        </widget>
       </item>
-      <item row="0" column="8" rowspan="2">
+      <item row="0" column="6" rowspan="2">
        <widget class="QToolButton" name="saveButton">
         <property name="sizePolicy">
          <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
@@ -579,7 +560,7 @@ border-radius: 5px;
         </property>
        </widget>
       </item>
-      <item row="0" column="9" rowspan="2">
+      <item row="0" column="7" rowspan="2">
        <widget class="QToolButton" name="quitButton">
         <property name="minimumSize">
          <size>
@@ -619,7 +600,7 @@ border-radius: 5px;
         </property>
        </widget>
       </item>
-      <item row="0" column="5" rowspan="2">
+      <item row="0" column="3" rowspan="2">
        <spacer name="spacer_2">
         <property name="orientation">
          <enum>Qt::Horizontal</enum>
@@ -632,27 +613,8 @@ border-radius: 5px;
         </property>
        </spacer>
       </item>
-      <item row="0" column="4" rowspan="2">
-       <widget class="QToolButton" name="howtoButton">
-        <property name="sizePolicy">
-         <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
-          <horstretch>0</horstretch>
-          <verstretch>0</verstretch>
-         </sizepolicy>
-        </property>
-        <property name="text">
-         <string>Help</string>
-        </property>
-        <property name="popupMode">
-         <enum>QToolButton::InstantPopup</enum>
-        </property>
-        <property name="autoRaise">
-         <bool>true</bool>
-        </property>
-       </widget>
-      </item>
       <item row="0" column="2" rowspan="2">
-       <widget class="QToolButton" name="backButton">
+       <widget class="QToolButton" name="menu">
         <property name="sizePolicy">
          <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
           <horstretch>0</horstretch>
@@ -660,7 +622,7 @@ border-radius: 5px;
          </sizepolicy>
         </property>
         <property name="text">
-         <string>Background</string>
+         <string>Menu</string>
         </property>
         <property name="popupMode">
          <enum>QToolButton::InstantPopup</enum>

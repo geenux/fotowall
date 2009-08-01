@@ -148,9 +148,11 @@ FotoWall::FotoWall(QWidget * parent)
 
     // attach menus
     //ui->arrangeButton->setMenu(createArrangeMenu());
-    ui->backButton->setMenu(createBackgroundMenu());
-    ui->decoButton->setMenu(createDecorationMenu());
-    ui->howtoButton->setMenu(createHelpMenu());
+    QMenu *globalMenu = new QMenu(ui->menu);
+    globalMenu->addMenu(createBackgroundMenu());
+    globalMenu->addMenu(createDecorationMenu());
+    globalMenu->addMenu(createHelpMenu());
+    ui->menu->setMenu(globalMenu);
 
     // react to VideoProvider
     ui->aAddVideo->setVisible(VideoProvider::instance()->inputCount() > 0);
@@ -275,7 +277,7 @@ QMenu * FotoWall::createArrangeMenu()
 
 QMenu * FotoWall::createBackgroundMenu()
 {
-    QMenu * menu = new QMenu();
+    QMenu * menu = new QMenu(tr("Background"));
 
     m_gBackActions = new QActionGroup(menu);
     connect(m_gBackActions, SIGNAL(triggered(QAction*)), this, SLOT(slotSetBackMode(QAction*)));
@@ -308,7 +310,7 @@ QMenu * FotoWall::createBackgroundMenu()
 
 QMenu * FotoWall::createDecorationMenu()
 {
-    QMenu * menu = new QMenu();
+    QMenu * menu = new QMenu(tr("Decorations"));
 
     QAction * aTop = new QAction(tr("Top bar"), menu);
     aTop->setCheckable(true);
@@ -338,7 +340,7 @@ QMenu * FotoWall::createDecorationMenu()
 
 QMenu * FotoWall::createHelpMenu()
 {
-    QMenu * menu = new QMenu();
+    QMenu * menu = new QMenu(tr("Help"));
     menu->setSeparatorsCollapsible(false);
 
     QAction * aSep = new QAction(tr("About"), menu);

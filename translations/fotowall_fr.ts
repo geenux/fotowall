@@ -150,22 +150,22 @@ Utiliser CTRL pour annuler les transformations.</translation>
 <context>
     <name>Desk</name>
     <message>
-        <location filename="../Desk.cpp" line="822"/>
+        <location filename="../Desk.cpp" line="824"/>
         <source>Back</source>
         <translation>Arrière</translation>
     </message>
     <message>
-        <location filename="../Desk.cpp" line="826"/>
+        <location filename="../Desk.cpp" line="828"/>
         <source>Front</source>
         <translation>Avant</translation>
     </message>
     <message>
-        <location filename="../Desk.cpp" line="953"/>
+        <location filename="../Desk.cpp" line="955"/>
         <source>Delete content</source>
         <translation>Supprimer l&apos;élément</translation>
     </message>
     <message>
-        <location filename="../Desk.cpp" line="953"/>
+        <location filename="../Desk.cpp" line="955"/>
         <source>All the %1 selected content will be deleted, do you want to continue ?</source>
         <translation>Les %1 éléments sélectionnés seront supprimés, voulez-vous continuer ?</translation>
     </message>
@@ -482,161 +482,167 @@ Allez dans les Préférences du bureau et selectionnez le fichier : %1</translat
 <context>
     <name>FotoWall</name>
     <message>
-        <location filename="../FotoWall.cpp" line="511"/>
+        <location filename="../FotoWall.cpp" line="513"/>
         <source>Select one or more pictures to add</source>
         <translation>Sélectionnez une ou plusieur photos à ajouter</translation>
     </message>
     <message>
-        <location filename="../FotoWall.cpp" line="511"/>
+        <location filename="../FotoWall.cpp" line="513"/>
         <source>Images (%1)</source>
         <translation>Images (%1)</translation>
     </message>
     <message>
-        <location filename="../FotoWall.cpp" line="244"/>
+        <location filename="../FotoWall.cpp" line="246"/>
         <source>Enable force field</source>
         <translatorcomment>Pas trop sur de la traduction.</translatorcomment>
         <translation type="unfinished">Autoriser l&apos;arrangement forcé</translation>
     </message>
     <message>
-        <location filename="../FotoWall.cpp" line="250"/>
+        <location filename="../FotoWall.cpp" line="252"/>
         <source>Auto-arrange new pictures</source>
         <translation>Arranger automatiquement les nouvelles images</translation>
     </message>
     <message>
-        <location filename="../FotoWall.cpp" line="256"/>
+        <location filename="../FotoWall.cpp" line="258"/>
         <source>Rearrange</source>
         <translation>Ré-arranger</translation>
     </message>
     <message>
-        <location filename="../FotoWall.cpp" line="258"/>
+        <location filename="../FotoWall.cpp" line="260"/>
         <source>Uniform</source>
         <translation>Uniforme</translation>
     </message>
     <message>
-        <location filename="../FotoWall.cpp" line="263"/>
+        <location filename="../FotoWall.cpp" line="265"/>
         <source>Shaped</source>
         <translation>Profilé</translation>
     </message>
     <message>
-        <location filename="../FotoWall.cpp" line="268"/>
+        <location filename="../FotoWall.cpp" line="270"/>
         <source>Collage</source>
         <translation>Collage</translation>
     </message>
     <message>
-        <location filename="../FotoWall.cpp" line="289"/>
+        <location filename="../FotoWall.cpp" line="291"/>
         <source>Transparent</source>
         <translation>Transparent</translation>
     </message>
     <message>
-        <location filename="../FotoWall.cpp" line="290"/>
+        <location filename="../FotoWall.cpp" line="292"/>
         <source>Transparency can be saved to PNG images only.</source>
         <translation>La transparence ne peut être sauvegardée que pour des images PNG.</translation>
     </message>
     <message>
-        <location filename="../FotoWall.cpp" line="296"/>
+        <location filename="../FotoWall.cpp" line="298"/>
         <source>Content</source>
         <translation>Contenu</translation>
     </message>
     <message>
-        <location filename="../FotoWall.cpp" line="297"/>
+        <location filename="../FotoWall.cpp" line="299"/>
         <source>Double click on any content to put it on background.</source>
         <translation>Double cliquez sur n&apos;importe quel contenu pour le mettre en arrière plan.</translation>
     </message>
     <message>
-        <location filename="../FotoWall.cpp" line="313"/>
+        <location filename="../FotoWall.cpp" line="315"/>
         <source>Top bar</source>
         <translation>Barre du haut</translation>
     </message>
     <message>
-        <location filename="../FotoWall.cpp" line="319"/>
+        <location filename="../FotoWall.cpp" line="321"/>
         <source>Bottom bar</source>
         <translation>Barre du bas</translation>
     </message>
     <message>
-        <location filename="../FotoWall.cpp" line="327"/>
+        <location filename="../FotoWall.cpp" line="329"/>
         <source>Set title...</source>
         <translation>Définir le titre...</translation>
     </message>
     <message>
-        <location filename="../FotoWall.cpp" line="328"/>
+        <location filename="../FotoWall.cpp" line="330"/>
         <source>CTRL+T</source>
         <translation>CTRL+T</translation>
     </message>
     <message>
-        <location filename="../FotoWall.cpp" line="332"/>
+        <location filename="../FotoWall.cpp" line="334"/>
         <source>Clear title</source>
         <translation>Supprimer le titre</translation>
     </message>
     <message>
-        <location filename="../FotoWall.cpp" line="344"/>
+        <location filename="../FotoWall.cpp" line="343"/>
+        <source>Help</source>
+        <translation>Aide</translation>
+    </message>
+    <message>
+        <location filename="../FotoWall.cpp" line="346"/>
         <source>About</source>
         <translation>À propos</translation>
     </message>
     <message>
-        <location filename="../FotoWall.cpp" line="348"/>
+        <location filename="../FotoWall.cpp" line="350"/>
         <source>Introduction</source>
         <translation>Introduction</translation>
     </message>
     <message>
-        <location filename="../FotoWall.cpp" line="352"/>
+        <location filename="../FotoWall.cpp" line="354"/>
         <source>Internet Resources</source>
         <translation>Ressources Internet</translation>
     </message>
     <message>
-        <location filename="../FotoWall.cpp" line="356"/>
+        <location filename="../FotoWall.cpp" line="358"/>
         <source>Tutorial Video (0.2)</source>
         <translation>Tutoriel Vidéo (0.2)</translation>
     </message>
     <message>
-        <location filename="../FotoWall.cpp" line="360"/>
+        <location filename="../FotoWall.cpp" line="362"/>
         <source>Check for Updates</source>
         <translation>Vérifiez les mises à jour.</translation>
     </message>
     <message>
-        <location filename="../FotoWall.cpp" line="364"/>
+        <location filename="../FotoWall.cpp" line="366"/>
         <source>Fotowall&apos;s Blog</source>
         <translation>Blog de FotoWall</translation>
     </message>
     <message>
-        <location filename="../FotoWall.cpp" line="378"/>
+        <location filename="../FotoWall.cpp" line="380"/>
         <source>Select all</source>
         <translation>Sélectionner tout</translation>
     </message>
     <message>
-        <location filename="../FotoWall.cpp" line="379"/>
+        <location filename="../FotoWall.cpp" line="381"/>
         <source>CTRL+A</source>
         <translation>CTRL+A</translation>
     </message>
     <message>
-        <location filename="../FotoWall.cpp" line="415"/>
+        <location filename="../FotoWall.cpp" line="417"/>
+        <location filename="../FotoWall.ui"/>
         <source>export</source>
         <translation>exporter</translation>
     </message>
     <message>
-        <location filename="../FotoWall.cpp" line="427"/>
-        <location filename="../FotoWall.cpp" line="438"/>
-        <location filename="../FotoWall.cpp" line="469"/>
+        <location filename="../FotoWall.cpp" line="429"/>
+        <location filename="../FotoWall.cpp" line="440"/>
+        <location filename="../FotoWall.cpp" line="471"/>
         <source>print</source>
         <translation>imprimer</translation>
     </message>
     <message>
-        <location filename="../FotoWall.cpp" line="528"/>
-        <location filename="../FotoWall.cpp" line="534"/>
+        <location filename="../FotoWall.cpp" line="530"/>
+        <location filename="../FotoWall.cpp" line="536"/>
         <source>Select FotoWall file</source>
         <translation>Sélectionnez un fichier FotoWall</translation>
     </message>
     <message>
-        <location filename="../FotoWall.cpp" line="528"/>
+        <location filename="../FotoWall.cpp" line="530"/>
         <source>FotoWall (*.fotowall)</source>
         <translation>FotoWall (*.fotowall)</translation>
     </message>
     <message>
-        <location filename="../FotoWall.cpp" line="599"/>
+        <location filename="../FotoWall.cpp" line="601"/>
         <source>Opening FotoWall&apos;s author Blog</source>
         <translation>Ouverture du blog de l&apos;auteur de FotoWall</translation>
     </message>
     <message>
-        <location filename="../FotoWall.cpp" line="599"/>
+        <location filename="../FotoWall.cpp" line="601"/>
         <source>This is the blog of the main author of FotoWall.
 You can find some news while we set up a proper website ;-)
 Do you want to open the web page?</source>
@@ -645,7 +651,7 @@ Vous pouvez y trouver quelques nouvelles pendant que nous mettons en place un si
 Voulez-vous ouvrir la page Web ?</translation>
     </message>
     <message>
-        <location filename="../FotoWall.cpp" line="615"/>
+        <location filename="../FotoWall.cpp" line="617"/>
         <source>The Tutorial is provided on Fosswire by Peter Upfold.
 It&apos;s about FotoWall 0.2 a rather old version.
 Do you want to open the web page?</source>
@@ -654,22 +660,27 @@ Il s&apos;agit de la version 0.2 de FotoWall, une version plutôt ancienne.
 Voules-vous ouvrir la page Web ?</translation>
     </message>
     <message>
-        <location filename="../FotoWall.cpp" line="654"/>
+        <location filename="../FotoWall.cpp" line="656"/>
         <source>Support (%1)</source>
         <translation>Supporte (%1)</translation>
     </message>
     <message>
-        <location filename="../FotoWall.cpp" line="615"/>
+        <location filename="../FotoWall.cpp" line="617"/>
         <source>Opening the Web Tutorial</source>
         <translation>Ouverture du tutoriel Internet</translation>
     </message>
     <message>
-        <location filename="../FotoWall.cpp" line="587"/>
+        <location filename="../FotoWall.cpp" line="313"/>
+        <source>Decorations</source>
+        <translation>Décorations</translation>
+    </message>
+    <message>
+        <location filename="../FotoWall.cpp" line="589"/>
         <source>Title</source>
         <translation>Titre</translation>
     </message>
     <message>
-        <location filename="../FotoWall.cpp" line="587"/>
+        <location filename="../FotoWall.cpp" line="589"/>
         <source>Insert the title</source>
         <translation>Insérez le titre</translation>
     </message>
@@ -694,14 +705,9 @@ Voules-vous ouvrir la page Web ?</translation>
         <translation>Taille exacte</translation>
     </message>
     <message>
-        <location filename="../FotoWall.ui"/>
+        <location filename="../FotoWall.cpp" line="280"/>
         <source>Background</source>
         <translation>Arrière-plan</translation>
-    </message>
-    <message>
-        <location filename="../FotoWall.ui"/>
-        <source>Decorations</source>
-        <translation>Décorations</translation>
     </message>
     <message>
         <location filename="../FotoWall.ui"/>
@@ -719,7 +725,7 @@ Voules-vous ouvrir la page Web ?</translation>
         <translation>Quitter</translation>
     </message>
     <message>
-        <location filename="../FotoWall.cpp" line="283"/>
+        <location filename="../FotoWall.cpp" line="285"/>
         <source>Gradient</source>
         <translation>Dégradé</translation>
     </message>
@@ -765,8 +771,13 @@ Voules-vous ouvrir la page Web ?</translation>
     </message>
     <message>
         <location filename="../FotoWall.ui"/>
-        <source>Help</source>
-        <translation>Aide</translation>
+        <source>background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(255, 255, 255, 255), stop:0.500 rgba(232, 232, 232, 255), stop:0.501 rgba(202, 202, 202, 255), stop:1 rgba(237, 237, 237, 255)) ;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../FotoWall.ui"/>
+        <source>Menu</source>
+        <translation>Menu</translation>
     </message>
 </context>
 <context>
@@ -817,47 +828,64 @@ p, li { white-space: pre-wrap; }
 <context>
     <name>PictureProperties</name>
     <message>
-        <location filename="../items/PictureProperties.cpp" line="32"/>
+        <location filename="../items/PictureProperties.cpp" line="33"/>
         <source>Picture</source>
         <translation>Image</translation>
     </message>
     <message>
-        <location filename="../items/PictureProperties.cpp" line="37"/>
+        <location filename="../items/PictureProperties.cpp" line="38"/>
         <source>Invert colors</source>
         <translation>Inverser les couleurs</translation>
     </message>
     <message>
-        <location filename="../items/PictureProperties.cpp" line="38"/>
+        <location filename="../items/PictureProperties.cpp" line="39"/>
         <source>Invert the colors of the picture</source>
         <translation>Inverse les couleurs de l&apos;image</translation>
     </message>
     <message>
-        <location filename="../items/PictureProperties.cpp" line="40"/>
+        <location filename="../items/PictureProperties.cpp" line="41"/>
         <source>NVG</source>
         <translation>Niveaux de gris</translation>
     </message>
     <message>
-        <location filename="../items/PictureProperties.cpp" line="41"/>
+        <location filename="../items/PictureProperties.cpp" line="42"/>
         <source>Set the colors to levels of gray</source>
         <translation>Convertir en niveau de gris</translation>
     </message>
     <message>
-        <location filename="../items/PictureProperties.cpp" line="43"/>
+        <location filename="../items/PictureProperties.cpp" line="44"/>
         <source>Black and White</source>
         <translation>Noir et blanc</translation>
     </message>
     <message>
-        <location filename="../items/PictureProperties.cpp" line="45"/>
+        <location filename="../items/PictureProperties.cpp" line="46"/>
         <source>Glow effect</source>
         <translation>Effet lumineux</translation>
     </message>
     <message>
-        <location filename="../items/PictureProperties.cpp" line="47"/>
+        <location filename="../items/PictureProperties.cpp" line="48"/>
         <source>Sepia</source>
         <translation>Sépia</translation>
     </message>
     <message>
-        <location filename="../items/PictureProperties.cpp" line="35"/>
+        <location filename="../items/PictureProperties.cpp" line="50"/>
+        <location filename="../items/PictureProperties.cpp" line="92"/>
+        <source>Opacity</source>
+        <translation>Opacité</translation>
+    </message>
+    <message>
+        <location filename="../items/PictureProperties.cpp" line="93"/>
+        <source>Opacity value.
+
+0: transparent
+100: opaque</source>
+        <translation>Valeur de l&apos;opacité
+
+0 : transparent
+100 : opaque</translation>
+    </message>
+    <message>
+        <location filename="../items/PictureProperties.cpp" line="36"/>
         <source>No effects</source>
         <translation>Aucun effet</translation>
     </message>
@@ -885,6 +913,11 @@ p, li { white-space: pre-wrap; }
         <location filename="../items/PictureProperties.ui"/>
         <source>apply to all</source>
         <translation>appliquer à tous</translation>
+    </message>
+    <message>
+        <location filename="../items/PictureProperties.ui"/>
+        <source>Crop</source>
+        <translation>Recadrer</translation>
     </message>
 </context>
 <context>
