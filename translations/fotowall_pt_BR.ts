@@ -566,6 +566,7 @@ Go to the Desktop Settings and select the file:
     </message>
     <message>
         <location filename="../FotoWall.cpp" line="343"/>
+        <location filename="../FotoWall.ui"/>
         <source>Help</source>
         <translation type="unfinished"></translation>
     </message>
@@ -759,12 +760,11 @@ Do you want to open the web page?</source>
     </message>
     <message>
         <location filename="../FotoWall.ui"/>
-        <source>background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(255, 255, 255, 255), stop:0.500 rgba(232, 232, 232, 255), stop:0.501 rgba(202, 202, 202, 255), stop:1 rgba(237, 237, 237, 255)) ;</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../FotoWall.ui"/>
-        <source>Menu</source>
+        <source>#contentToolbar
+{
+/* background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(255, 255, 255, 255), stop:0.500 rgba(232, 232, 232, 255), stop:0.501 rgba(202, 202, 202, 255), stop:1 rgba(237, 237, 237, 255)) ; */
+    background-color: rgba(255, 255, 255, 0);
+}</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

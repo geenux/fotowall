@@ -569,6 +569,7 @@ Allez dans les Préférences du bureau et selectionnez le fichier : %1</translat
     </message>
     <message>
         <location filename="../FotoWall.cpp" line="343"/>
+        <location filename="../FotoWall.ui"/>
         <source>Help</source>
         <translation>Aide</translation>
     </message>
@@ -771,13 +772,12 @@ Voules-vous ouvrir la page Web ?</translation>
     </message>
     <message>
         <location filename="../FotoWall.ui"/>
-        <source>background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(255, 255, 255, 255), stop:0.500 rgba(232, 232, 232, 255), stop:0.501 rgba(202, 202, 202, 255), stop:1 rgba(237, 237, 237, 255)) ;</source>
+        <source>#contentToolbar
+{
+/* background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(255, 255, 255, 255), stop:0.500 rgba(232, 232, 232, 255), stop:0.501 rgba(202, 202, 202, 255), stop:1 rgba(237, 237, 237, 255)) ; */
+    background-color: rgba(255, 255, 255, 0);
+}</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../FotoWall.ui"/>
-        <source>Menu</source>
-        <translation>Menu</translation>
     </message>
 </context>
 <context>
