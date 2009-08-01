@@ -51,7 +51,8 @@ FORMS += ExactSizeDialog.ui \
     ExportWizard.ui \
     FotoWall.ui \
     GlowEffectDialog.ui \
-    VersionCheckDialog.ui
+    VersionCheckDialog.ui \
+    CropingDialog.ui
 RESOURCES += fotowall.qrc
 TRANSLATIONS += translations/fotowall_de.ts \
     translations/fotowall_fr.ts \
