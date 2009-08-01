@@ -311,19 +311,6 @@ border-radius: 5px;
          </widget>
         </item>
         <item>
-         <spacer name="spacer_2">
-          <property name="orientation">
-           <enum>Qt::Horizontal</enum>
-          </property>
-          <property name="sizeHint" stdset="0">
-           <size>
-            <width>17</width>
-            <height>32</height>
-           </size>
-          </property>
-         </spacer>
-        </item>
-        <item>
          <widget class="Line" name="line">
           <property name="maximumSize">
            <size>
