@@ -18,8 +18,15 @@ on:
     branches:
     - "**"
 jobs:
+  working-directory:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Free-up space
+      run: |
+        sudo rm -rf /opt/hostedtoolcache/CodeQL
+        sudo rm -rf /usr/local/lib/android
   package:
-    uses: jrl-umi3218/github-actions/.github/workflows/package-project.yml@master
+    uses: arntanguy/github-actions/.github/workflows/package-project.yml@topic/git
     with:
       latest-cmake: true
       matrix: |
