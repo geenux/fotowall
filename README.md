@@ -55,6 +55,10 @@ sudo apt install fotowall
 On other systems, you can download the latest release from the [Releases](https://github.com/enricoros/fotowall/releases/latest) page.
 
 ## ChangeLog
+### Fotowall "head" (upcoming):
+* Undo/Redo system
+* Ubuntu packaging
+
 ### Fotowall "RETRO" 1.0 (2017-07-09):
 * Picture cropping (reqby Rossana)
 * Exporters: vast improvements, high-quality print-ready PDF output
