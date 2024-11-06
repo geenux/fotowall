@@ -11,10 +11,54 @@ Check out the [home page](https://www.enricoros.com/opensource/fotowall), the
 [old blog](https://www.enricoros.com/oldblog/tag/fotowall/) too.
 *Focus is on simplicity, express your creativity! ;-)*
 
+## Installation
+
+### Packages (Ubuntu)
+
+We provide two repositories to install Fotowall from on Ubuntu: the `stable` repository contains packages for the latest release, the `head` repository contains the latest developpement version (github's main branch).
+
+#### stable (recommended)
+
+To install the `stable` version, first set-up our repository:
+
+```sh
+curl -1sLf \
+  'https://dl.cloudsmith.io/public/arntanguy/stable/setup.deb.sh' \
+  | sudo -E bash
+```
+
+Then install Fotowall
+
+```sh
+sudo apt install fotowall
+```
+
+#### head (for testing purposes)
+
+To install the `head` version, first set-up our repository:
+
+```sh
+curl -1sLf \
+  'https://dl.cloudsmith.io/public/arntanguy/head/setup.deb.sh' \
+  | sudo -E bash
+```
+
+Then install Fotowall
+
+```sh
+sudo apt install fotowall
+```
+
+
 ### Download
-Download it here, from the [Releases](https://github.com/enricoros/fotowall/releases/latest) page.
+
+On other systems, you can download the latest release from the [Releases](https://github.com/enricoros/fotowall/releases/latest) page.
 
 ## ChangeLog
+### Fotowall "head" (upcoming):
+* Undo/Redo system
+* Ubuntu packaging
+
 ### Fotowall "RETRO" 1.0 (2017-07-09):
 * Picture cropping (reqby Rossana)
 * Exporters: vast improvements, high-quality print-ready PDF output
