@@ -31,7 +31,7 @@ jobs:
       latest-cmake: true
       matrix: |
           {
-            "dist": ["focal", "jammy", "noble"],
+            "dist": ["focal", "jammy", "noble", "oracular"],
             "arch": ["amd64"]
           }
       head-repo: "arntanguy/head"
