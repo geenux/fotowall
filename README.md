@@ -49,6 +49,15 @@ Then install Fotowall
 sudo apt install fotowall
 ```
 
+### AppImage
+
+Or you can install it from our `AppImage` releases.
+
+#### head (for testing purposes)
+
+| Version | AppImage Download Link |
+| ------- | ---------------------- |
+| Ubuntu Focal | `curl -1sLf -O 'https://dl.cloudsmith.io/public/arntanguy/head/raw/versions/latest/Fotowall-latest-x86_64-focal.AppImage'` |
 
 ### Download
 
