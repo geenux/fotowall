@@ -59,6 +59,18 @@ jobs:
       - name: Configure AppImageBuilder.yml
         run: |
           sed -i "s|focal|`lsb_release -cs`|g" AppImageBuilder.yml
+          if [[ "`lsb_release -cs`" == 'focal' ]]
+          then
+            sed -i "s|KEY_URL|http://keyserver.ubuntu.com/pks/lookup?op=get\&search=0x3b4fe6acc0b21f32|g" AppImageBuilder.yml
+          elif [[ "`lsb_release -cs`" == 'jammy' ]]
+          then
+            sed -i "s|KEY_URL|http://keyserver.ubuntu.com/pks/lookup?op=get\&search=0x871920D1991BC93C|g" AppImageBuilder.yml
+          elif [[ "`lsb_release -cs`" == 'noble' ]]
+          then
+            sed -i "s|KEY_URL|http://keyserver.ubuntu.com/pks/lookup?op=get\&search=0x871920D1991BC93C|g" AppImageBuilder.yml
+          fi
+          echo "Using the following AppImageBuilder.yml:"
+          cat AppImageBuilder.yml
       - name: Build AppImage
         uses: AppImageCrafters/build-appimage-action@master
         env:
@@ -67,6 +79,7 @@ jobs:
           recipe: AppImageBuilder.yml
       - name: Push
         id: push
+        if: github.ref == 'refs/heads/master' && github.repository == 'fotowall/fotowall'
         uses: cloudsmith-io/action@master
         with:
           api-key: ${{ secrets.CLOUDSMITH_API_KEY }}
