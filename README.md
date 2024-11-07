@@ -13,6 +13,8 @@ Check out the [home page](https://www.enricoros.com/opensource/fotowall), the
 
 ## Installation
 
+We provide several installation options: AppImage or Ubuntu packages on Linux systems, Executables on Windows or build from source on other OS.
+
 ### Packages (Ubuntu)
 
 We provide two repositories to install Fotowall from on Ubuntu: the `stable` repository contains packages for the latest release, the `head` repository contains the latest developpement version (github's main branch).
@@ -57,7 +59,9 @@ Or you can install it from our `AppImage` releases.
 
 | Version | AppImage Download Link |
 | ------- | ---------------------- |
-| Ubuntu Focal | `curl -1sLf -O 'https://dl.cloudsmith.io/public/arntanguy/head/raw/versions/latest/Fotowall-latest-x86_64-focal.AppImage'` |
+| Ubuntu 20.04 | `curl -1sLf -O 'https://dl.cloudsmith.io/public/arntanguy/head/raw/versions/latest/Fotowall-latest-x86_64-ubuntu-20.04.AppImage'` |
+| Ubuntu 22.04 | `curl -1sLf -O 'https://dl.cloudsmith.io/public/arntanguy/head/raw/versions/latest/Fotowall-latest-x86_64-ubuntu-22.04.AppImage'` |
+| Ubuntu 24.04 | `curl -1sLf -O 'https://dl.cloudsmith.io/public/arntanguy/head/raw/versions/latest/Fotowall-latest-x86_64-ubuntu-24.04.AppImage'` |
 
 ### Download
 
