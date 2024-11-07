@@ -2,11 +2,11 @@ version: 1
 AppDir:
   path: AppDir
   app_info:
-    id: appimage-fotowall
+    id: fotowall
     name: Fotowall 
-    icon: appimage-fotowall
+    icon: fotowall
     version: latest
-    exec: usr/bin/appimage-fotowall
+    exec: usr/bin/fotowall
     exec_args: $@
   apt:
     arch: amd64
