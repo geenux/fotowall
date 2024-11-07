@@ -56,6 +56,9 @@ jobs:
         run: cmake . -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/usr
       - name: build
         run: make -j`nproc`  install DESTDIR=AppDir
+      - name: Configure AppImageBuilder.yml
+        run: |
+          sed -i "s|focal|`lsb_release -cs`|g" AppImageBuilder.yml
       - name: Build AppImage
         uses: AppImageCrafters/build-appimage-action@master
         env:
