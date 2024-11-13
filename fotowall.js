@@ -639,8 +639,8 @@ var wasmMemory;
 // In the wasm backend, we polyfill the WebAssembly object,
 // so this creates a (non-native-wasm) table for us.
 var wasmTable = new WebAssembly.Table({
-  'initial': 16026,
-  'maximum': 16026 + 0,
+  'initial': 16046,
+  'maximum': 16046 + 0,
   'element': 'anyfunc'
 });
 
@@ -1241,11 +1241,11 @@ function updateGlobalBufferAndViews(buf) {
 }
 
 var STATIC_BASE = 1024,
-    STACK_BASE = 10508992,
+    STACK_BASE = 10509632,
     STACKTOP = STACK_BASE,
-    STACK_MAX = 5266112,
-    DYNAMIC_BASE = 10508992,
-    DYNAMICTOP_PTR = 5265920;
+    STACK_MAX = 5266752,
+    DYNAMIC_BASE = 10509632,
+    DYNAMICTOP_PTR = 5266560;
 
 assert(STACK_BASE % 16 === 0, 'stack must start aligned');
 assert(DYNAMIC_BASE % 16 === 0, 'heap must start aligned');
@@ -1769,7 +1769,7 @@ var ASM_CONSTS = {
 
 
 
-// STATICTOP = STATIC_BASE + 5265088;
+// STATICTOP = STATIC_BASE + 5265728;
 /* global initializers */  __ATINIT__.push({ func: function() { ___wasm_call_ctors() } });
 
 
@@ -1949,7 +1949,7 @@ var ASM_CONSTS = {
   
       var pointer = ___cxa_is_pointer_type(throwntype);
       // can_catch receives a **, add indirection
-      var buffer = 5266080;
+      var buffer = 5266720;
       HEAP32[((buffer)>>2)]=thrown;
       thrown = buffer;
       // The different catch blocks are denoted by different types.
@@ -1986,7 +1986,7 @@ var ASM_CONSTS = {
   
       var pointer = ___cxa_is_pointer_type(throwntype);
       // can_catch receives a **, add indirection
-      var buffer = 5266080;
+      var buffer = 5266720;
       HEAP32[((buffer)>>2)]=thrown;
       thrown = buffer;
       // The different catch blocks are denoted by different types.
@@ -8666,7 +8666,7 @@ var ASM_CONSTS = {
     }
 
   function _emscripten_get_sbrk_ptr() {
-      return 5265920;
+      return 5266560;
     }
 
   
@@ -12873,7 +12873,7 @@ var ASM_CONSTS = {
   }
   
   
-  var _fetch_work_queue=5266096;function __emscripten_get_fetch_work_queue() {
+  var _fetch_work_queue=5266736;function __emscripten_get_fetch_work_queue() {
       return _fetch_work_queue;
     }function _emscripten_start_fetch(fetch, successcb, errorcb, progresscb, readystatechangecb) {
     if (typeof noExitRuntime !== 'undefined') noExitRuntime = true; // If we are the main Emscripten runtime, we should not be closing down.
@@ -13522,10 +13522,10 @@ var ASM_CONSTS = {
     }
 
   
-  var ___tm_current=5265936;
+  var ___tm_current=5266576;
   
   
-  var ___tm_timezone=(stringToUTF8("GMT", 5265984, 4), 5265984);
+  var ___tm_timezone=(stringToUTF8("GMT", 5266624, 4), 5266624);
   
   function _tzset() {
       // TODO: Use (malleable) environment variables instead of system settings.
